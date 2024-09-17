@@ -1,0 +1,22 @@
+2ND HW. Emilio Palacios Valencia. 
+
+1. 
+SELECT 
+Role,
+Name,
+MAX(Years_employed)
+FROM employees;
+
+2. 
+SELECT 
+Role,
+AVG(years_employed)
+FROM employees
+GROUP BY Role
+
+3. 
+SELECT
+building,
+SUM(years_employed)
+FROM Employees
+GROUP BY building
